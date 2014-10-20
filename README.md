@@ -29,7 +29,7 @@
 	|                      										     |
 	==================================================================
 
-Lecture 1:
+	Lecture 1:
 	Structure of an Android Project
 	Views - Buttons, EditText, TextViews
 	RelativeLayouts
