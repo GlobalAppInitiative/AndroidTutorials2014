@@ -38,4 +38,12 @@
 	Setting ClickListeners to Views
 	Colors
 
+	Lecture 2:
+	Will be updated soon
+
+	Lecture 3:
+	Radio Groups and Buttons
+	Alert Dialogs
+	Random String generating
+
 
