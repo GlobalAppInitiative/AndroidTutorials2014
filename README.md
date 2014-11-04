@@ -46,4 +46,7 @@
 	Alert Dialogs
 	Random String generating
 
+	TipCalculator:
+	This was used for an EC 327 lecture. Goes over basic UI & Java 
+
 
