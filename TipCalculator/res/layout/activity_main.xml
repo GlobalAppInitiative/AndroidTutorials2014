@@ -30,7 +30,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10%"
-            android:checked="true"
             />
         
         <RadioButton
@@ -38,7 +37,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="15%"
-            android:checked="true"
             />
         
     </RadioGroup>
@@ -46,36 +44,16 @@
     <!-- The money amount input -->
     
     <EditText
-        android:id="@+id/dollars"
-        android:layout_width="80dp"
+        android:id="@+id/money"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:inputType="number"
-		android:digits="0123456789"
-		android:maxLength="4"
+		android:digits="0123456789."
+		android:maxLength="10"
 		android:layout_below="@id/tip_amount"
 		android:layout_marginTop="30dp"
 		android:layout_marginLeft="10dp"
 		/>
-    
-    <TextView
-        android:id="@+id/dot"
-        android:layout_width="5dp"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/dollars"
-        android:text="."
-        android:layout_alignBottom="@id/dollars"
-        />
-    
-    <EditText
-        android:id="@+id/cents"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:digits="0123456789"
-        android:maxLength="2"
-        android:layout_toRightOf="@id/dot"
-        android:layout_alignBottom="@id/dollars"
-        />
     
     <!-- Button to perform calculation -->
     
@@ -84,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate!"
-        android:layout_alignBottom="@id/dollars"
+        android:layout_alignBottom="@id/money"
         android:layout_marginRight="10dp"
         android:layout_alignParentRight="true"
         />
